@@ -35,8 +35,7 @@
             <h4 class="modal-title">Đặt Lịch Khám Online</h4>
             <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
         </div>
-        <form>
-             <!-- Modal body -->
+        <!-- Modal body -->
         <div class="modal-body">
             
             <div class="modal-container" style="margin-top: 0px;">
@@ -44,7 +43,8 @@
                     Mã Bệnh Nhân
                 </div>
                 <input type="text" class="modal-input" placeholder="Ma benh nhan" required="">
-                <div class="obligatory">(*)BN-YYYY</div>
+                <div class="obligatory">(*)BN-YYYYY</div>
+                <div class="check"></div>
             </div>
             <div class="modal-container">
                 <div class="modal-item-title">
@@ -52,6 +52,7 @@
                 </div>
                 <input type="text" class="modal-input" placeholder="Mat khau" required="">
                 <div class="obligatory">(*)</div>
+                <div class="check"></div>
             </div>
             <div class="modal-container">
                 <div class="modal-item-title">
@@ -59,6 +60,7 @@
                 </div>
                 <input type="date" class="modal-input" required="">
                 <div class="obligatory">(*)</div>
+                <div class="check"></div>
             </div>
             <div class="modal-container">
                 <div class="modal-item-title">
@@ -90,15 +92,14 @@
                   </select>
             </div>
             <div class="modal-container" style="margin-bottom: 20px;">
-                <button type="submit" class="btn btn-danger">Đặt Lịch</button>
+                <button onclick="check()" type="submit" class="btn btn-danger">Đặt Lịch</button>
             </div>
         </div>
 
         <!-- Modal footer -->
         <div class="modal-footer">
             <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
-        </div>   
-        </form>
+        </div>
         </div>
     </div>
     </div>
