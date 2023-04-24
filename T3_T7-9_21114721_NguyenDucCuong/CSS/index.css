@@ -42,18 +42,26 @@ html,body{
     width: 100%;
     border-bottom: 3px solid black;
     border-top: 3px solid black;
+    padding-bottom: 20px;
 }
 .info-row{
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-start;
     align-items: center;
     height: 40px;
+    padding: 0px 0.5%;
+    padding-left: 1%;
+}
+.info-row >.info-item{
+    border-top: 2px solid rgb(199, 197, 197);
 }
 .info-title >.info-item{
     font-weight: bold;
+    border-top: 2px solid transparent;
 }
 .info-item{
     font-size: 14px;
+    padding: 5px 0px;
 }
 .modal-item-title{
     font-weight: bold;
@@ -94,4 +102,13 @@ html,body{
 .btn-danger{
     background-color: rgb(46, 189, 255);
     border-color: rgb(46, 189, 255);
+}
+.my-info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.my-info-item{
+    font-size: 30px;
+    margin-top: 20px;
 }
