@@ -1,0 +1,97 @@
+html,body{
+    margin: 0px;
+    padding: 0px;
+}
+.banner{
+    display: flex;
+    position: relative;
+    width: 100%;
+    border-bottom: 3px solid black;
+    height: 300px;
+    overflow: hidden;
+}
+.background{
+    width: 50%;
+    height: 500px;
+}
+.banner-des{
+    position: absolute;
+    left: 42%;
+    top: 70%;
+    font-size: 40px;
+    color: blue;
+}
+.btn-primary{
+    background-color: transparent;
+    color: rgb(49, 158, 248) !important;
+    border: none;
+}
+.btn-primary:hover{
+    background-color: transparent;
+}
+.mt-3{
+    margin-left: 30px;
+    margin-bottom: 16px;
+}
+#myModal{
+    transition: 1s;
+}
+.info-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border-bottom: 3px solid black;
+    border-top: 3px solid black;
+}
+.info-row{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 40px;
+}
+.info-title >.info-item{
+    font-weight: bold;
+}
+.info-item{
+    font-size: 14px;
+}
+.modal-item-title{
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+.obligatory{
+    margin-top: 4px;
+    color: red;
+}
+.modal-container{
+    margin-top: 10px;
+}
+.modal-service{
+    display: flex;
+    align-items: center;
+}
+.modal-checkbox{
+    display: flex;
+    align-items: center;
+    margin-right: 5px;
+}
+.checkbox{
+    margin-right: 5px;
+}
+.modal-content{
+    width: 120%;
+    justify-self: center;
+}
+.modal-dialog{
+    margin-left: 480px;
+}
+.form-select,.modal-input{
+    width: 100%;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid rgb(203, 203, 203);
+}
+.btn-danger{
+    background-color: rgb(46, 189, 255);
+    border-color: rgb(46, 189, 255);
+}
